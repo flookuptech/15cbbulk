@@ -1,0 +1,106 @@
+body {
+  background-color: #f3fbfb;
+}
+
+@media (max-width: 767px) {
+  .contactHeading {
+    font-size: 22px;
+  }
+}
+
+.navbar {
+  background-color: #f2f3fb;
+}
+
+.mainText {
+  padding-top: 1rem;
+}
+
+.centreText {
+  padding: 4rem 1rem;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  background-color: #041b61;
+  border-radius: 10px;
+  /* box-shadow: 2px 4px 8px 3px #cac9c9; */
+}
+
+section.centreText {
+  padding-bottom: 3rem;
+  margin-top: 5rem;
+}
+
+.card {
+  background-color: white;
+}
+
+.contentText {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cardDeck {
+  margin-bottom: 10px;
+}
+
+.borderClass {
+  border-width: 3px;
+  border-color: #041b61;
+  border-radius: 10px;
+}
+
+.featuresText {
+  color: #041b61;
+}
+
+section.contentText {
+  padding-top: 1rem;
+}
+
+.contentHeading {
+  padding-top: 3rem;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1e1e64;
+}
+
+.contactUsForm {
+  border-radius: 10px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contactTitles {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding-left: 0;
+}
+
+.contactPhone {
+  color: white;
+}
+
+.contactNumber {
+  padding-top: 1rem;
+}
+
+.contactPhone:hover {
+  text-decoration: none;
+  color: powderblue;
+}
+
+div.featuresText {
+  height: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.featuresText p {
+  margin: 0;
+}
